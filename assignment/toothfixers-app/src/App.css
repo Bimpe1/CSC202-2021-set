@@ -1,0 +1,192 @@
+.home-page {
+  text-align: center;
+  padding: 40px;
+}
+
+.home-page h1 {
+  color: #00a651;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.home-page p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.home-page .services {
+  margin-top: 60px;
+}
+
+.home-page .services h2 {
+  color: #00a651;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-page .services ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.home-page .services li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.home-page .about-us {
+  margin-top: 60px;
+}
+
+.home-page .about-us h2 {
+  color: #00a651;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-page .about-us p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.home-page .contact-info {
+  margin-top: 60px;
+}
+
+.home-page .contact-info h2 {
+  color: #00a651;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-page .contact-info p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.home-page .link {
+  display: inline-block;
+  margin-top: 60px;
+  padding: 10px 20px;
+  background-color: #00a651;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 
+  2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+body {
+  background-color: #f1f1f1;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #5cb85c;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.create-form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.create-form input[type='text'],
+.create-form input[type='date'],
+.create-form input[type='number'] {
+  width: 100%;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.create-form button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4cae4c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.create-form button:hover {
+  background-color: #449d44;
+}
+
+.create-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.create-form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.create-form .button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: #00a651;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 
+  2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.patienthe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00a651;
+  font-size: 25px;
+}
+.readthe{
+  color: #000d03e4;
+  border-bottom: 2px solid black; 
+  margin-top: 70px;
+ }
+
+
